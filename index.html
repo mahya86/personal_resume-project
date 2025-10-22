@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Resume</title>
+    <script>
+        window.theme = localStorage.getItem('theme') || 'dark'
+        const linkElem = document.createElement('link')
+        linkElem.rel = 'stylesheet'
+        linkElem.href = `css/${window.theme}.css`
+        linkElem.id = 'css-file-darklight'
+        document.head.appendChild(linkElem)
+        window.linkElem = linkElem
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/project.css">
+</head>
+
+<body>
+    <div class="loading">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="container">
+        <div class="top-bar"></div>
+        <section class="profile">
+            <i class="fas fa-moon darklight"></i>
+            <div class="job-infos">
+                <img src="images/profile.jpg" alt="محیا ابوترابی" class="job-infos__img">
+                <span class="job-infos__name">محیا ابوترابی</span>
+                <span>توسعه دهنده فرانت اند</span>
+                <span>طراح رابط کاربری</span>
+            </div>
+            <div class="personal-infos">
+                <span>کشور<span>: ایران</span></span>
+                <span>تحصیلات<span>: محصل</span></span>
+                <span>شهر<span>: یزد</span></span>
+                <span>سن<span>: ۱۸ سال</span></span>
+            </div>
+            <div class="languages">
+                <span class="languages__title">زبان ها</span>
+                <div class="language">
+                    <div class="language__name">
+                        <span>انگلیسی</span>
+                        <span class="percentage" data-target="90">۰%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="language">
+                    <div class="language__name">
+                        <span>فرانسوی</span>
+                        <span class="percentage" data-target="90">۰%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="language">
+                    <div class="language__name">
+                        <span>فارسی</span>
+                        <span class="percentage" data-target="100">۰%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="https://drive.google.com/uc?export=download&id=1d4FUyiTNsWoO2FNaXOh3A1nXBncc1xNd" class="download-resume">
+                    <i class="fas fa-download"></i>
+                    <span>دانلود رزومه</span>
+                </a>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://t.me/mah_8684"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="more-infos">
+            <div class="introduction-wrapper">
+                <div class="introduction">
+                    <span class="hello">سلام</span>
+                    <span class="introduction__name">من <span class="myname">محیا ابوترابی</span> هستم</span>
+                    <span>متخصص و توسعه دهنده فرانت اند</span>
+                    <span>متخصص و طراح رابط کاربری ui , ux</span>
+                </div>
+            </div>
+            <div class="honors">
+                <span><span class="honors__num">۱۲۳</span> پروژه انجام شده</span>
+                <span><span class="honors__num">۹</span> سال سابقه کار</span>
+                <span><span class="honors__num">۱۲۳</span> مشتری راضی</span>
+                <span><span class="honors__num">۱۷</span> جوایز و افتخارات</span>
+            </div>
+            <span class="skills-title">مهارت های من</span>
+            <div class="skills">
+                <div class="skill">
+                    <div class="skill__name">
+                        <span>زبان برنامه نویسی PHP</span>
+                        <span class="percentage" data-target="90">۰%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__name">
+                        <span>زبان برنامه نویسی JAVASCRIPT</span>
+                        <span class="percentage" data-target="90">۰%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__name">
+                        <span>زبان نشانگذاری HTML۵</span>
+                        <span class="percentage" data-target="95">۰%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__name">
+                        <span>زبان نشانگذاری CSS۳</span>
+                        <span class="percentage" data-target="95">۰%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__name">
+                        <span>فریم ورک BOOTSTRAP</span>
+                        <span class="percentage" data-target="95">۰%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill__name">
+                        <span>کتابخانه JQUERY</span>
+                        <span class="percentage" data-target="90">۰%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+            <span class="services-title">خدمات من</span>
+            <div class="services">
+                <div class="service">
+                    <span class="service__title">برنامه نویسی وب</span>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با اسفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله ...</p>
+                </div>
+                <div class="service">
+                    <span class="service__title">طراحی رابط کاربری</span>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با اسفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله ...</p>
+                </div>
+                <div class="service">
+                    <span class="service__title">طراحی گرافیک</span>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با اسفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله ...</p>
+                </div>
+            </div>
+        </section>
+        <aside class="sidebar-menu">
+            <a href="#"><i class="fas fa-dollar-sign"></i></a>
+            <a href="#"><i class="fas fa-history"></i></a>
+            <a href="#"><i class="fas fa-user-graduate"></i></a>
+            <a href="#"><i class="fas fa-gem"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#"><i class="fas fa-comments"></i></a>
+            <a href="#"><i class="fas fa-rss-square"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </aside>
+        <div class="bottom-bar"></div>
+    </div>
+    <script src="project.js"></script>
+</body>
+
+</html>
