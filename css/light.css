@@ -1,0 +1,57 @@
+body,
+.loading,
+.top-bar,
+.bottom-bar,
+.language.progress-bar {
+    background-color: #fff;
+}
+
+.loading span,
+.progress {
+    background-color: #3498db;
+}
+
+.top-bar {
+    border: 1.8rem solid #3498db;
+}
+
+.profile,
+.sidebar-menu {
+    background-color: #8bc2e7;
+}
+
+.darklight,
+.job-infos__name,
+.personal-infos,
+.languages__title,
+.language,
+.download-resume,
+.honors,
+.skills-title,
+.skills,
+.services-title,
+.service {
+    color: #000;
+}
+
+.progress-bar {
+    background-color: #d3d3d3;
+}
+
+.download-resume:hover,
+.social-media > a,
+.myname,
+.honors__num,
+.service__title,
+.sidebar-menu > a:hover {
+    color: #3498db;
+}
+
+.service {
+    background-color: #a5cde7;
+}
+
+.bottom-bar {
+    border: 2rem solid #8bc2e7;
+    outline: 2rem solid #3498db;
+}
